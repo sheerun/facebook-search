@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Facebook Search",
-  "description": "Advanced filtering of Facebook group streams",
-  "version": "0.1.0",
+  "description": "Filters Facebook group posts",
+  "version": "0.1.1",
 
   "permissions": [
     "webNavigation",
