@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Search",
+  "description": "Advanced filtering of Facebook group streams",
+  "version": "0.1.0",
+
+  "permissions": [
+    "webNavigation",
+    "tabs",
+    "https://www.facebook.com/groups/*"
+  ],
+
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["facebook-search.js"]
+    }
+  ]
+}

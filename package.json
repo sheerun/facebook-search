@@ -1,0 +1,17 @@
+{
+  "name": "facebook-search",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheerun/facebook-search.git"
+  },
+  "devDependencies": {
+    "shelljs": "~0.1.4",
+    "grunt": "~0.4.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-concat-sourcemap": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-multiresize": "~0.2.1",
+    "grunt-contrib-copy": "~0.4.1"
+  }
+}
