@@ -1,6 +1,10 @@
 # Facebook Search
 
-Allows for an advanced filtering of Facebook Grups posts
+Chrome Extension for easy filtering filtering of Facebook grups posts.
+
+## Installation
+
+Install extension from [Chrome Store](https://chrome.google.com/webstore/detail/facebook-search/acablmnboplljgpnncnmdnndjofkldmk) or build it from this repository.
 
 ## Building
 
