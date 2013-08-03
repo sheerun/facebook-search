@@ -8,7 +8,8 @@
   "permissions": [
     "webNavigation",
     "tabs",
-    "https://www.facebook.com/groups/*"
+    "https://www.facebook.com/*",
+    "http://www.facebook.com/*"
   ],
 
   "icons": {
@@ -19,7 +20,10 @@
 
   "content_scripts": [
     {
-      "matches": ["https://www.facebook.com/*"],
+      "matches": [
+        "https://www.facebook.com/*",
+        "http://www.facebook.com/*"
+      ],
       "js": ["facebook-search.js"]
     }
   ]
