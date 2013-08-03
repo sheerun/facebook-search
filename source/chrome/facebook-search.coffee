@@ -6,11 +6,14 @@ new class FacebookSearch
     setTimeout(@initialize.bind(this), 2000)
 
   initialize: ->
-    globalObserver = new MutationObserver (changes) =>
-      @lastUrl = undefined
-      contentObserver = new MutationObserver (changes) => @lastUrl = undefined
-      contentObserver.observe $('#contentCol')[0], childList: true
-    globalObserver.observe $('#content')[0], childList: true
+    if $('#content').length
+      globalObserver = new MutationObserver (changes) =>
+        @lastUrl = undefined
+
+        if $('#contentCol').length
+          contentObserver = new MutationObserver (changes) => @lastUrl = undefined
+          contentObserver.observe $('#contentCol')[0], childList: true
+      globalObserver.observe $('#content')[0], childList: true
    
     if $('#contentCol').length
       contentObserver = new MutationObserver (changes) => @lastUrl = undefined
