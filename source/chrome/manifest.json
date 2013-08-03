@@ -3,7 +3,7 @@
 
   "name": "Facebook Search",
   "description": "Filters Facebook group posts",
-  "version": "0.1.1",
+  "version": "1.0.0",
 
   "permissions": [
     "webNavigation",
