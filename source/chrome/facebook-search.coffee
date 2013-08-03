@@ -2,7 +2,6 @@
 
 new class FacebookSearch
   constructor: ->
-    console.log('constructor')
     @text = undefined
     setTimeout(@initialize.bind(this), 2000)
 
@@ -26,7 +25,6 @@ new class FacebookSearch
   hook: ->
     return if @lastUrl == document.location.href
     @lastUrl = document.location.href
-    console.log('hook')
     observer = new MutationObserver (changes) => @filter()
     observer.observe $('.fbGroupsStream')[0], childList: true
 
