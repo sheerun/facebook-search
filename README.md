@@ -1,6 +1,6 @@
 # Facebook Search
 
-Chrome Extension for easy filtering filtering of Facebook grups posts.
+Chrome Extension for easy filtering of Facebook grups posts.
 
 ## Installation
 
